@@ -4,6 +4,17 @@
 <title>CV Maker</title>
 </head>
 <body>
+  <script>
+      function CHECKEDTANAME() {
+      var inputText = prompt("Please enter your TA name", "Here!");
+      if (inputText == 'Saja'){
+        confirm("Welcome!");
+      }
+      else{
+        confirm("you are not TA ");
+      }
+      }
+  </script>
     <header>
         <h1>Hello in the CV Makers <img src="https://pbs.twimg.com/profile_images/887281402747727872/DziNJepE_400x400.jpg" style="height: 45px; width: 45px; align-items: center;"></h1>
     </header>
@@ -35,11 +46,11 @@
             <br><br>
             <h2>Skills</h2>
             <p>Please enter your skills and submited</p>
-            <input type="text" placeholder="first skills"><br><br>
-            <input type="text" placeholder="second skills"><br><br>
-            <input type="text" placeholder="third skills"><br><br>
-            <input type="text" placeholder="fouth skills"><br><br>
-            <input type="text" placeholder="fifth skills"><br><br>
+            <input type="text" id="FSkills" placeholder="first skills" ><br><br>
+            <input type="text" id="SSkills"  placeholder="second skills"><br><br>
+            <input type="text" id="TSkills" placeholder="third skills"><br><br>
+            <input type="text" id="FoSkills" placeholder="fouth skills"><br><br>
+            <input type="text" id="FFSkills" placeholder="fifth skills"><br><br>
             <input type="number"  placeholder="Rating of English language" min="0" max="10"><br><br>
 
             <h2>Project</h2>
@@ -48,7 +59,7 @@
             <br> <br>
 
             <label>If we Finished All input data please click on Submit.</label>
-            <input type="submit" value="Save">
+            <input type="submit" onclick="CHECKEDTANAME()" value="Save">
 <br><br>
         </article>
     </main>
