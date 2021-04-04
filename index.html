@@ -4,16 +4,8 @@
 <title>CV Maker</title>
 </head>
 <body>
-  <script>
-      function CHECKEDTANAME() {
-      var inputText = prompt("Please enter your TA name", "Here!");
-      if (inputText == 'Saja'){
-        confirm("Welcome!");
-      }
-      else{
-        confirm("you are not TA ");
-      }
-      }
+  <script src="/JSFile/App.js">
+    
   </script>
     <header>
         <h1>Hello in the CV Makers <img src="https://pbs.twimg.com/profile_images/887281402747727872/DziNJepE_400x400.jpg" style="height: 45px; width: 45px; align-items: center;"></h1>
@@ -51,7 +43,7 @@
             <input type="text" id="TSkills" placeholder="third skills"><br><br>
             <input type="text" id="FoSkills" placeholder="fouth skills"><br><br>
             <input type="text" id="FFSkills" placeholder="fifth skills"><br><br>
-            <input type="number"  placeholder="Rating of English language" min="0" max="10"><br><br>
+            <input type="number" id="MARKS"  placeholder="Rating of English language" min="0" max="10"><br><br>
 
             <h2>Project</h2>
             <label>If you have a project enter the links</label>
@@ -59,11 +51,13 @@
             <br> <br>
 
             <label>If we Finished All input data please click on Submit.</label>
-            <input type="submit" onclick="CHECKEDTANAME()" value="Save">
+            <input type="submit" onclick="SaveData()" value="Save">
 <br><br>
         </article>
     </main>
-      
+    <label >if You need to login admin page please click here : </label>
+      <input type="submit" value="Login Admin Account" onclick="CHECKEDTANAME()">
+      <br><br>
       <footer>
         <p style="text-align: center; font-size: small;">Gmail: aliakefsh@gmail.com</p>
         <p style="text-align: center; font-size: small;">Phone number: 0780704421</p>
