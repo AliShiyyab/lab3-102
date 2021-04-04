@@ -1,5 +1,5 @@
 function CHECKEDTANAME() {
-  alert("Hello in CV Makers, if You need to login in Admin page we should be answered")
+  alert("Hello in CV Makers, if You need to login in Admin page we should be answered");
     var makerName = 'Ali';
     var name = prompt('Please Enter Maker name : ');
     for (var i = 0 ; i < 10 ; i++)
@@ -18,7 +18,7 @@ function CHECKEDTANAME() {
       alert('Welcome Admin' + Guestname);
     }
     else{
-      alert('I"m only admin, You are Hacker ?')
+      alert('I"m only admin, You are Hacker ?');
       document.write('<img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2019/07/pandasecurity-How-do-hackers-pick-their-targets.jpg"/>');
     }
 }
@@ -38,7 +38,7 @@ function SaveData(){
       case 2:
         var x = prompt("How many Skills are you have ? ");
         for (var z = 1 ; z <= x ; z++){
-          var skills = prompt("The " + z + " Skills is : ")  
+          var skills = prompt("The " + z + " Skills is : ");
         }
         break;
       
@@ -50,5 +50,4 @@ function SaveData(){
         alert("You are finished ! ");
       }
   }
-
 }
