@@ -1,4 +1,4 @@
-alert("HHHHH");
+alert("Welcome in MY Website");
 function CHECKEDTANAME() {
   alert("Hello in CV Makers, if You need to login in Admin page we should be answered");
     var makerName = 'Ali';
