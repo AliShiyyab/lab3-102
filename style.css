@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    color: black;
+    background-color: darkturquoise;
+    border: darkviolet;
+  }
+  body{
+    background-color: cyan;
+    
+  }
+  #SelectList{
+    font-family: Cursive;
+  }
+  .Skills{
+    background-color: white;
+  }
+  .div1 {
+    width: 320px;
+  border: 5px solid white;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin: 20px;
+  padding-bottom: 2%;
+  }
+  .Paraone{
+    padding-left: 5%;
+  }
+  .Footers{
+    border: 2px dashed black;
+  }
+  .Last{
+    border: 2px solid red;
+  }
